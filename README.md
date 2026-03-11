@@ -3,6 +3,7 @@ A Spring Boot based RESTful backend application for an agriculture e-commerce pl
 The system provides APIs for user management, product management, and order processing, with secure authentication and database integration.
 
 🚀 Features
+
 •	User registration and authentication
 •	Product management (Add, Update, Delete, View)
 •	Order creation and order tracking
@@ -11,6 +12,7 @@ The system provides APIs for user management, product management, and order proc
 •	API testing using Postman
 
 🛠️ Tech Stack
+
 Backend
 •	Java
 •	Spring Boot
@@ -19,12 +21,15 @@ Backend
 •	Hibernate
 
 Database
+
 •	MySQL
 
 Security
+
 •	JWT Authentication
 
 Tools
+
 •	Maven
 •	Git
 •	Postman
