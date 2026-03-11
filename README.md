@@ -5,19 +5,28 @@ The system provides APIs for user management, product management, and order proc
 🚀 Features
 
 •	User registration and authentication
+
 •	Product management (Add, Update, Delete, View)
+
 •	Order creation and order tracking
+
 •	Secure API endpoints using JWT authentication
+
 •	Relational database design using MySQL
+
 •	API testing using Postman
 
 🛠️ Tech Stack
 
 Backend
 •	Java
+
 •	Spring Boot
+
 •	Spring MVC
+
 •	Spring Data JPA
+
 •	Hibernate
 
 Database
@@ -31,30 +40,48 @@ Security
 Tools
 
 •	Maven
+
 •	Git
+
 •	Postman
+
 
 📦 Project Modules
 1️⃣ User Module
+
 Handles:
 •	User registration
+
 •	Login authentication
+
 APIs:
+
 •	POST /api/users/register
+
 •	POST /api/users/login
 
 2️⃣ Product Module
+
 Handles:
+
 •	Add product
+
 •	Update product
+
 •	Delete product
+
 •	View product list
+
 APIs:
+
 •	POST /api/products
+
 •	GET /api/products
+
 •	PUT /api/products/{id}
+
 •	DELETE /api/products/{id}
-•	
+
 3️⃣ Order Module
 Handles:
 •	Create order
