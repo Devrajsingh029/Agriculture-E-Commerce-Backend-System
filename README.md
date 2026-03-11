@@ -47,9 +47,11 @@ Tools
 
 
 📦 Project Modules
+
 1️⃣ User Module
 
 Handles:
+
 •	User registration
 
 •	Login authentication
@@ -83,11 +85,17 @@ APIs:
 •	DELETE /api/products/{id}
 
 3️⃣ Order Module
+
 Handles:
+
 •	Create order
+
 •	View orders
+
 APIs:
+
 •	POST /api/orders
+
 •	GET /api/orders
 
 🔐 Authentication
@@ -99,23 +107,33 @@ Users must authenticate before accessing protected routes.
 ▶️ How to Run the Project
 
 1.	Clone the repository
+   
 •	git clone https://github.com/yourusername/agriculture-ecommerce-backend.git
 
-2.	Navigate to the project folder
+3.	Navigate to the project folder
+   
 •	cd agriculture-ecommerce-backend
 
-3.	Configure database in application.properties
+5.	Configure database in application.properties
+   
 •	spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
+
 •	spring.datasource.username=root
+
 •	spring.datasource.password=yourpassword
 
-4.	Run the project
+7.	Run the project
+   
 •	mvn spring-boot:run
 
 
 📌 Future Improvements
+
 •	Payment gateway integration
+
 •	Product image upload
+
 •	Order history tracking
+
 •	Admin dashboard APIs
 
