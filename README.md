@@ -1,139 +1,168 @@
-🌾 Agriculture E-Commerce Backend System
-A Spring Boot based RESTful backend application for an agriculture e-commerce platform where farmers can list products and users can browse and place orders.
-The system provides APIs for user management, product management, and order processing, with secure authentication and database integration.
+Got it 👍 — you want the **same words**, but formatted like a **professional GitHub README design** (like the previous one). I will **not change your text**, only structure it with headings, spacing, and clean formatting.
 
-🚀 Features
+---
 
-•	User registration and authentication
+# 🌾 Agriculture E-Commerce Backend System
 
-•	Product management (Add, Update, Delete, View)
+A **Spring Boot based RESTful backend application for an agriculture e-commerce platform where farmers can list products and users can browse and place orders.**
 
-•	Order creation and order tracking
+The system provides APIs for **user management, product management, and order processing**, with secure authentication and database integration.
 
-•	Secure API endpoints using JWT authentication
+---
 
-•	Relational database design using MySQL
+## 🚀 Features
 
-•	API testing using Postman
+• User registration and authentication
 
-🛠️ Tech Stack
+• Product management (Add, Update, Delete, View)
 
-Backend
-•	Java
+• Order creation and order tracking
 
-•	Spring Boot
+• Secure API endpoints using JWT authentication
 
-•	Spring MVC
+• Relational database design using MySQL
 
-•	Spring Data JPA
+• API testing using Postman
 
-•	Hibernate
+---
 
-Database
+## 🛠️ Tech Stack
 
-•	MySQL
+### Backend
 
-Security
+• Java
 
-•	JWT Authentication
+• Spring Boot
 
-Tools
+• Spring MVC
 
-•	Maven
+• Spring Data JPA
 
-•	Git
+• Hibernate
 
-•	Postman
+### Database
 
+• MySQL
 
-📦 Project Modules
+### Security
 
-1️⃣ User Module
+• JWT Authentication
 
-Handles:
+### Tools
 
-•	User registration
+• Maven
 
-•	Login authentication
+• Git
 
-APIs:
+• Postman
 
-•	POST /api/users/register
+---
 
-•	POST /api/users/login
+## 📦 Project Modules
 
-2️⃣ Product Module
+### 1️⃣ User Module
 
 Handles:
 
-•	Add product
+• User registration
 
-•	Update product
-
-•	Delete product
-
-•	View product list
+• Login authentication
 
 APIs:
 
-•	POST /api/products
+```
+POST /api/users/register
+POST /api/users/login
+```
 
-•	GET /api/products
+---
 
-•	PUT /api/products/{id}
-
-•	DELETE /api/products/{id}
-
-3️⃣ Order Module
+### 2️⃣ Product Module
 
 Handles:
 
-•	Create order
+• Add product
 
-•	View orders
+• Update product
+
+• Delete product
+
+• View product list
 
 APIs:
 
-•	POST /api/orders
+```
+POST /api/products
+GET /api/products
+PUT /api/products/{id}
+DELETE /api/products/{id}
+```
 
-•	GET /api/orders
+---
 
-🔐 Authentication
+### 3️⃣ Order Module
+
+Handles:
+
+• Create order
+
+• View orders
+
+APIs:
+
+```
+POST /api/orders
+GET /api/orders
+```
+
+---
+
+## 🔐 Authentication
 
 JWT-based authentication is implemented to secure API endpoints.
 
 Users must authenticate before accessing protected routes.
 
-▶️ How to Run the Project
+---
 
-1.	Clone the repository
-   
-•	git clone https://github.com/yourusername/agriculture-ecommerce-backend.git
+## ▶️ How to Run the Project
 
-3.	Navigate to the project folder
-   
-•	cd agriculture-ecommerce-backend
+### 1. Clone the repository
 
-5.	Configure database in application.properties
-   
-•	spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
+```
+git clone https://github.com/yourusername/agriculture-ecommerce-backend.git
+```
 
-•	spring.datasource.username=root
+### 2. Navigate to the project folder
 
-•	spring.datasource.password=yourpassword
+```
+cd agriculture-ecommerce-backend
+```
 
-7.	Run the project
-   
-•	mvn spring-boot:run
+### 3. Configure database in application.properties
 
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+```
 
-📌 Future Improvements
+### 4. Run the project
 
-•	Payment gateway integration
+```
+mvn spring-boot:run
+```
 
-•	Product image upload
+---
 
-•	Order history tracking
+## 📌 Future Improvements
 
-•	Admin dashboard APIs
+• Payment gateway integration
+
+• Product image upload
+
+• Order history tracking
+
+• Admin dashboard APIs
+
 
