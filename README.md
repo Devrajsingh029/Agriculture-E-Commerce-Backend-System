@@ -1,6 +1,4 @@
-Got it 👍 — you want the **same words**, but formatted like a **professional GitHub README design** (like the previous one). I will **not change your text**, only structure it with headings, spacing, and clean formatting.
 
----
 
 # 🌾 Agriculture E-Commerce Backend System
 
