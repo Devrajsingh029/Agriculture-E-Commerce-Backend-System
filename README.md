@@ -1,166 +1,69 @@
+# 🌾 Agriculture E-Commerce Backend
 
-
-# 🌾 Agriculture E-Commerce Backend System
-
-A **Spring Boot based RESTful backend application for an agriculture e-commerce platform where farmers can list products and users can browse and place orders.**
-
-The system provides APIs for **user management, product management, and order processing**, with secure authentication and database integration.
-
----
-
-## 🚀 Features
-
-• User registration and authentication
-
-• Product management (Add, Update, Delete, View)
-
-• Order creation and order tracking
-
-• Secure API endpoints using JWT authentication
-
-• Relational database design using MySQL
-
-• API testing using Postman
+A complete e-commerce backend REST API for agricultural products — built with
+Spring Boot, Spring Data JPA, Hibernate, MySQL, and JWT Authentication.
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Backend
-
-• Java
-
-• Spring Boot
-
-• Spring MVC
-
-• Spring Data JPA
-
-• Hibernate
-
-### Database
-
-• MySQL
-
-### Security
-
-• JWT Authentication
-
-### Tools
-
-• Maven
-
-• Git
-
-• Postman
+| Layer | Technology |
+|---|---|
+| Language | Java |
+| Framework | Spring Boot |
+| ORM | Spring Data JPA + Hibernate |
+| Database | MySQL |
+| Security | JWT Authentication |
 
 ---
 
-## 📦 Project Modules
+## ✨ Features
 
-### 1️⃣ User Module
-
-Handles:
-
-• User registration
-
-• Login authentication
-
-APIs:
-
-```
-POST /api/users/register
-POST /api/users/login
-```
+- ✅ REST APIs for product listings, user registration, and order processing
+- ✅ Full CRUD operations across 3 core modules — Products, Users, Orders
+- ✅ Normalized MySQL schema with 4 related tables and foreign key constraints
+- ✅ JWT Authentication securing all endpoints against unauthorized access
+- ✅ Clean 4-module architecture for separation of concerns
 
 ---
 
-### 2️⃣ Product Module
+## 🗂️ Modules
 
-Handles:
-
-• Add product
-
-• Update product
-
-• Delete product
-
-• View product list
-
-APIs:
-
-```
-POST /api/products
-GET /api/products
-PUT /api/products/{id}
-DELETE /api/products/{id}
-```
+| Module | Responsibility |
+|---|---|
+| Products | Product listing, details, and management |
+| Users | User registration and profile handling |
+| Orders | Order creation and processing |
+| Security | JWT auth and endpoint protection |
 
 ---
 
-### 3️⃣ Order Module
+## 🗃️ Database Schema
 
-Handles:
-
-• Create order
-
-• View orders
-
-APIs:
-
-```
-POST /api/orders
-GET /api/orders
-```
+- 4 related tables with **foreign key constraints**
+- Normalized schema design to avoid data redundancy
+- All database interactions handled via **Spring Data JPA and Hibernate**
 
 ---
 
-## 🔐 Authentication
+## ⚙️ How to Run Locally
 
-JWT-based authentication is implemented to secure API endpoints.
+```bash
+# Clone the repo
+git clone https://github.com/Devrajsingh029/agri-ecommerce-backend
 
-Users must authenticate before accessing protected routes.
-
----
-
-## ▶️ How to Run the Project
-
-### 1. Clone the repository
-
-```
-git clone https://github.com/yourusername/agriculture-ecommerce-backend.git
-```
-
-### 2. Navigate to the project folder
-
-```
-cd agriculture-ecommerce-backend
-```
-
-### 3. Configure database in application.properties
-
-```
-spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
+# Configure DB in application.properties
+spring.datasource.url=jdbc:mysql://localhost:3306/agridb
 spring.datasource.username=root
 spring.datasource.password=yourpassword
-```
+spring.jpa.hibernate.ddl-auto=update
 
-### 4. Run the project
-
-```
+# Run
 mvn spring-boot:run
 ```
 
 ---
 
-## 📌 Future Improvements
-
-• Payment gateway integration
-
-• Product image upload
-
-• Order history tracking
-
-• Admin dashboard APIs
-
-
+## 👤 Author
+**Devraj Singh** — [LinkedIn](https://linkedin.com/in/devraj-singh01) |
+[GitHub](https://github.com/Devrajsingh029)
